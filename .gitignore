@@ -1,2 +1,3 @@
 # the JS libraries
 /js/bower_components
+.DS_Store
