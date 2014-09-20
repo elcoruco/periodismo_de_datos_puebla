@@ -1,0 +1,20 @@
+{
+  "name": "Cambio de placas",
+  "version": "1.0.0",
+  "homepage": "https://github.com/elcoruco/periodismo_de_datos_puebla",
+  "authors": [
+    "el.coruco@gmail.com"
+  ],
+  "description": "Entérate qué tan lejos te mandaron a cambiar tus placas",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
