@@ -65,6 +65,9 @@ define(function(require){
 
       // render the big cities
       this.render_big_cities();
+
+      // render the google map
+      this.render_google_map();
     },
 
     //
@@ -78,12 +81,64 @@ define(function(require){
     },
 
     //
-    //
+    // R E N D E R   T H E   C O M P L E T E   C I T Y   L I S T
     //
     render_full_list : function(){
       _.each(this.cities, function(city){
         var c = this.collection.findWhere({clave_municipio : city.clave_municipio});
         this.$('#just-all ol').append('<li style="background:' + Colores.color[c.get('level')] +';">' + c.get('nombre_municipio') + '</li>');
+      }, this);
+    },
+
+    //
+    // R E N D E R   T H E   G O O G L E   M A P
+    //
+    render_google_map : function(){
+      // set the map
+      var mapOptions = {
+        center      : { lat: 19.015416145324707, lng: -98.15610885620117}, // puebla
+        zoom        : 8,
+        scrollwheel : false
+      };
+      var map = new google.maps.Map(document.getElementById('centers-and-big-cities'), mapOptions);
+
+      // put the markers on the offices
+      var centers = [];
+      var cities  = [];
+      var center_color = "ffffff";//"3292e6";
+
+      // RENDER THE OFFICE MARKERS
+      this.offices.each(function(center){
+        // get a marker with the marker color
+        var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + center_color,
+          new google.maps.Size(21, 34),
+          new google.maps.Point(0,0),
+          new google.maps.Point(10, 34));
+
+        // create the marker
+        centers.push(new google.maps.Marker({
+          position: new google.maps.LatLng(center.get('lat'),center.get('lng')), 
+          map: map,
+          icon: pinImage
+        }));
+      }, this);
+
+      // RENDER THE CITY MARKERS
+      _.each(this.big_cities, function(city){
+        var c = this.collection.findWhere({clave_municipio : city.clave_municipio});
+        var city_color = Colores.colorhex[c.get('level')];
+        // get a marker with the marker color
+        var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + city_color,
+          new google.maps.Size(21, 34),
+          new google.maps.Point(0,0),
+          new google.maps.Point(10, 34));
+
+        // create the marker
+        cities.push(new google.maps.Marker({
+          position: new google.maps.LatLng(c.get('lat'),c.get('lng')), 
+          map: map,
+          icon: pinImage
+        }));
       }, this);
     },
 
