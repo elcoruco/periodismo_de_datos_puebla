@@ -58,6 +58,8 @@ define(function(require){
       }, this);
       // sort
       cities.sort(function(a,b){return  a.distance-b.distance});
+
+      console.log(cities);
     },
 
     map_data : function(){
