@@ -51,8 +51,40 @@ define(function(require){
       // the data array
       this.cities = [];
 
+      // the bigger cities
+      this.big_cities = [];
+
       // exectute the calc
       this.map_data();
+
+      // colorize :D & assign color values
+      this.colorize_svg();
+
+      // create the full list
+      this.render_full_list();
+
+      // render the big cities
+      this.render_big_cities();
+    },
+
+    //
+    //
+    //
+    render_big_cities : function(){
+      _.each(this.big_cities, function(city){
+        var c = this.collection.findWhere({clave_municipio : city.clave_municipio});
+        this.$('#top-ten ol').append('<li><span style="background:' + Colores.color[c.get('level')] +'; display:inline-block; height:1em; width:1em;"></span><em>' + c.get('nombre_municipio') + '</em>: ' + c.get('poblacion') + '</li>');
+      }, this);
+    },
+
+    //
+    //
+    //
+    render_full_list : function(){
+      _.each(this.cities, function(city){
+        var c = this.collection.findWhere({clave_municipio : city.clave_municipio});
+        this.$('#just-all ol').append('<li style="background:' + Colores.color[c.get('level')] +';">' + c.get('nombre_municipio') + '</li>');
+      }, this);
     },
 
     //
@@ -62,18 +94,20 @@ define(function(require){
       this.collection.each(function(city){
         // get the distance for the nearest office
         city.set({
-          distance : this._get_office(city),
-          clave_municipio : Number(city.get('clave_municipio'))
+          distance        : this._get_office(city),
+          clave_municipio : Number(city.get('clave_municipio')),
+          poblacion       : Number(city.get('poblacion'))
         });
         // create a new collection with the basic data
         this.cities.push(city.pick('clave_municipio', 'nombre_municipio', 'distance'));
+        if(city.get('poblacion') > 50000) this.big_cities.push(city.pick('clave_municipio', 'nombre_municipio', 'distance', 'poblacion'));
       }, this);
 
       // sort
       this.cities.sort(function(a,b){return  a.distance-b.distance});
 
-      // colorize :D
-      this.colorize_svg();
+      // sort bi cities
+      this.big_cities.sort(function(a,b){return  b.poblacion-a.poblacion});
     },
 
     //
@@ -89,45 +123,56 @@ define(function(require){
             var fill     = '#000';
 
             try{
-              var distance = that.collection.findWhere({clave_municipio : id}).get('distance');
+              var item     = that.collection.findWhere({clave_municipio : id});
+              var distance = item.get('distance');
             
               if(distance < 5){
                fill = Colores.color[9];
+               item.set({level : 9});
               }
               else if(distance < 10){
                 fill = Colores.color[8];
+                item.set({level : 8});
               }
 
               else if(distance < 20){
                 fill = Colores.color[7];
+                item.set({level : 7});
               }
 
               else if(distance < 30){
                 fill = Colores.color[6];
+                item.set({level : 6});
               }
 
               else if(distance < 40){
                 fill = Colores.color[5];
+                item.set({level : 5});
               }
 
               else if(distance < 50){
                 fill = Colores.color[4];
+                item.set({level : 4});
               }
 
               else if(distance < 60){
                 fill = Colores.color[3];
+                item.set({level : 3});
               }
 
               else if(distance < 70){
                 fill = Colores.color[2];
+                item.set({level : 2});
               }
 
               else if(distance < 80){
                 fill = Colores.color[1];
+                item.set({level : 1});
               }
 
               else{
                 fill = Colores.color[0];
+                item.set({level : 0});
               }
             }
             catch(err){
