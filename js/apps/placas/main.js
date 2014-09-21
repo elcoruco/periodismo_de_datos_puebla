@@ -10,11 +10,14 @@
 require.config({
   baseUlr : '/js/apps/placas',
   paths : {
-    jquery     : "../../bower_components/jquery/dist/jquery",
-    backbone   : "../../bower_components/backbone/backbone",
-    underscore : "../../bower_components/underscore/underscore",
-    text       : "../../bower_components/text/text",
-    bootstrap  : '../../bower_components/bootstrap/dist/js/bootstrap'
+    jquery         : "../../bower_components/jquery/dist/jquery",
+    backbone       : "../../bower_components/backbone/backbone",
+    underscore     : "../../bower_components/underscore/underscore",
+    text           : "../../bower_components/text/text",
+    async          : '../../bower_components/requirejs-plugins/src/async',
+    goog           : '../../bower_components/requirejs-plugins/src/goog',
+    propertyParser : '../../bower_components/requirejs-plugins/src/propertyParser',
+    bootstrap      : '../../bower_components/bootstrap/dist/js/bootstrap'
   },
   shim : {
     underscore :{
