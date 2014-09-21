@@ -12,9 +12,11 @@ define(function(require){
   // L O A D   T H E   A S S E T S   A N D   L I B R A R I E S
   //
   var Backbone   = require('backbone'),
+      d3         = require('d3'),
       G          = require('goog!maps,3.17,other_params:sensor=false&region=MX'),
       Municipios = require('data/puebla'),
-      Centros    = require('data/centros');
+      Centros    = require('data/centros'),
+      Colores    = require('data/colores');
 
   //
   // I N I T I A L I Z E   T H E   B A C K B O N E   V I E W
@@ -46,31 +48,101 @@ define(function(require){
       this.collection = new Backbone.Collection(Municipios.puebla);
       // offices collection
       this.offices = new Backbone.Collection(Centros.centros);
+      // the data array
+      this.cities = [];
 
       // exectute the calc
       this.map_data();
-
-      // sort the collection
-      var cities = [];
-      // map the values
-      this.collection.each(function(c){
-        cities.push(c.pick('nombre_municipio', 'distance'));
-      }, this);
-      // sort
-      cities.sort(function(a,b){return  a.distance-b.distance});
-
-      console.log(cities);
     },
 
+    //
+    // P R E P A R E   T H E   D A T A
+    // 
     map_data : function(){
       this.collection.each(function(city){
+        // get the distance for the nearest office
         city.set({
-          distance : this.get_office(city)
+          distance : this._get_office(city),
+          clave_municipio : Number(city.get('clave_municipio'))
         });
+        // create a new collection with the basic data
+        this.cities.push(city.pick('clave_municipio', 'nombre_municipio', 'distance'));
       }, this);
+
+      // sort
+      this.cities.sort(function(a,b){return  a.distance-b.distance});
+
+      // colorize :D
+      this.colorize_svg();
     },
 
-    get_office : function(city){
+    //
+    // C O L O R I Z E   T H E   S V G
+    //
+    colorize_svg : function(){
+      // SET THE COLORS ON THE MAP
+      var that = this; // cheap trick again
+      var states = d3.select('#PUEBLA')
+        .selectAll('path')
+          .attr('style', function(){
+            var id       = Number(this.getAttribute('id'));
+            var fill     = '#000';
+
+            try{
+              var distance = that.collection.findWhere({clave_municipio : id}).get('distance');
+            
+              if(distance < 5){
+               fill = Colores.color[9];
+              }
+              else if(distance < 10){
+                fill = Colores.color[8];
+              }
+
+              else if(distance < 20){
+                fill = Colores.color[7];
+              }
+
+              else if(distance < 30){
+                fill = Colores.color[6];
+              }
+
+              else if(distance < 40){
+                fill = Colores.color[5];
+              }
+
+              else if(distance < 50){
+                fill = Colores.color[4];
+              }
+
+              else if(distance < 60){
+                fill = Colores.color[3];
+              }
+
+              else if(distance < 70){
+                fill = Colores.color[2];
+              }
+
+              else if(distance < 80){
+                fill = Colores.color[1];
+              }
+
+              else{
+                fill = Colores.color[0];
+              }
+            }
+            catch(err){
+              // the metropolitan zones doesn't have a valid ID
+            }
+            return 'fill: ' + fill + '; cursor: pointer';  
+        })
+    },
+
+
+
+    //
+    // H E L P E R   F U N C T I O N S
+    //
+    _get_office : function(city){
       var offices = [];
       var lat1 = Number(city.get('lat'));
       var lng1 = Number(city.get('lng'));
@@ -88,7 +160,7 @@ define(function(require){
     },
 
     //
-    // H E L P E R   F U N C T I O N S
+    //
     // http://goo.gl/6jq8AJ
     _getDistanceFromLatLonInKm : function(lat1,lon1,lat2,lon2) {
       var R = 6371; // Radius of the earth in km
@@ -100,6 +172,9 @@ define(function(require){
       return d;
     },
 
+    //
+    //
+    //
     _deg2rad : function(deg){
       return deg * (Math.PI/180)
     }
