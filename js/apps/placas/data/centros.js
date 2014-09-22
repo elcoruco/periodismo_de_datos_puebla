@@ -37,8 +37,8 @@ define({
     },
     {
       loc : 'Tehuacán',
-      lat : 18.8074917,
-      lng : -97.7012411
+      lat : 18.4613871,
+      lng : -97.4191649
     },
     {
       loc : 'Tepeaca',
