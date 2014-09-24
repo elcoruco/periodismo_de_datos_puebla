@@ -1,0 +1,3 @@
+[submodule "inegi"]
+	path = inegi
+	url = https://github.com/elcoruco/inegifacil_4all.git
