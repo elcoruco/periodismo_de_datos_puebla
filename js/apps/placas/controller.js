@@ -150,8 +150,7 @@ define(function(require){
         // get the distance for the nearest office
         city.set({
           distance        : this._get_office(city),
-          clave_municipio : Number(city.get('clave_municipio')),
-          poblacion       : Number(city.get('poblacion'))
+        
         });
         // create a new collection with the basic data
         this.cities.push(city.pick('clave_municipio', 'nombre_municipio', 'distance'));
