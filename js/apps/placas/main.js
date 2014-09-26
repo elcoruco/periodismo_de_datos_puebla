@@ -14,7 +14,7 @@ require.config({
     backbone       : "../../bower_components/backbone/backbone",
     d3             : "../../bower_components/d3/d3",
     underscore     : "../../bower_components/underscore/underscore",
-    text           : "../../bower_components/text/text",
+    text           : "../../bower_components/requirejs-text/text",
     async          : '../../bower_components/requirejs-plugins/src/async',
     goog           : '../../bower_components/requirejs-plugins/src/goog',
     propertyParser : '../../bower_components/requirejs-plugins/src/propertyParser',

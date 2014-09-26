@@ -13,6 +13,7 @@ define(function(require){
   //
   var Backbone   = require('backbone'),
       Collection = require('collections/municipios'),
+      Big_cities = require('views/big_cities'),
       d3         = require('d3'),
       G          = require('goog!maps,3.17,other_params:sensor=false&region=MX'),
       Municipios = require('data/puebla'),
@@ -66,6 +67,7 @@ define(function(require){
 
       // render the big cities
       this.render_big_cities();
+      this.big_cities_view = new Big_cities({cities : this.collection.toJSON()});
 
       // render the google map
       this.render_google_map();
@@ -75,10 +77,12 @@ define(function(require){
     //
     //
     render_big_cities : function(){
+      /*
       _.each(this.big_cities, function(city){
         var c = this.collection.findWhere({clave_municipio : city.clave_municipio});
         this.$('#top-ten ol').append('<li><span style="background:' + Colores.color[c.get('level')] +'; display:inline-block; height:1em; width:1em;"></span><em>' + c.get('nombre_municipio') + '</em>: ' + c.get('poblacion') + '</li>');
       }, this);
+*/
     },
 
     //
