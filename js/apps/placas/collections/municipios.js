@@ -37,7 +37,7 @@ define(function(require){
     //  T H E   U R L   F U N C T I O N
     //
     url : function(){
-      return "/distance_matrix";
+      return "/municipio.php";
     },
 
     //
