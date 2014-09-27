@@ -37,8 +37,35 @@ define(function(require){
         nombre_entidad   : false,
         nombre_municipio : false,
         poblacion        : false,
-        office           : false
+        office           : false,
+        distance_text    : false,
+        distance_num     : false,
+        duration_text    : false,
+        duration_num     : false
       };
+    },
+
+    //
+    //
+    //
+    get_distance : function(){
+      var city        = this;_
+      var office      = this.get('office');
+      var origin      = new google.maps.LatLng(city.get('lat'), city.get('lng'));
+      var destination = new google.maps.LatLng(office.lat, office.lng);
+      var matrix      = new google.maps.DistanceMatrixService();
+      matrix.getDistanceMatrix({
+        origins : [origin],
+        destinations : [destination],
+        travelMode: google.maps.TravelMode.DRIVING
+      }, function(response, status){
+        city.set({
+          distance_text : response.rows[0].elements[0].distance.text,
+          distance_num  : response.rows[0].elements[0].distance.value,
+          duration_text : response.rows[0].elements[0].duration.text,
+          duration_num  : response.rows[0].elements[0].duration.value
+        });
+      });
     }
   });
 

@@ -17,7 +17,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "0,3 km",
+    "distance_num": 291,
+    "duration_text": "1 min",
+    "duration_num": 55
   },
   {
     "id": 1650,
@@ -36,7 +40,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "5,3 km",
+    "distance_num": 5293,
+    "duration_text": "10 min",
+    "duration_num": 588
   },
   {
     "id": 1745,
@@ -55,7 +63,11 @@ define({
       "loc": "Puebla 2",
       "lat": 19.0335321,
       "lng": -98.1868916
-    }
+    },
+    "distance_text": "9,0 km",
+    "distance_num": 8958,
+    "duration_text": "20 min",
+    "duration_num": 1224
   },
   {
     "id": 1795,
@@ -74,7 +86,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "22,8 km",
+    "distance_num": 22800,
+    "duration_text": "19 min",
+    "duration_num": 1160
   },
   {
     "id": 1672,
@@ -93,7 +109,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "6,2 km",
+    "distance_num": 6193,
+    "duration_text": "11 min",
+    "duration_num": 656
   },
   {
     "id": 1737,
@@ -112,7 +132,11 @@ define({
       "loc": "Puebla 4",
       "lat": 18.9581052,
       "lng": -98.2713659
-    }
+    },
+    "distance_text": "8,2 km",
+    "distance_num": 8213,
+    "duration_text": "19 min",
+    "duration_num": 1160
   },
   {
     "id": 1805,
@@ -131,7 +155,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "6,1 km",
+    "distance_num": 6087,
+    "duration_text": "9 min",
+    "duration_num": 541
   },
   {
     "id": 1728,
@@ -150,7 +178,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "7,4 km",
+    "distance_num": 7423,
+    "duration_text": "12 min",
+    "duration_num": 718
   },
   {
     "id": 1839,
@@ -169,7 +201,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "9,2 km",
+    "distance_num": 9156,
+    "duration_text": "11 min",
+    "duration_num": 655
   },
   {
     "id": 1830,
@@ -188,7 +224,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "9,6 km",
+    "distance_num": 9615,
+    "duration_text": "20 min",
+    "duration_num": 1199
   },
   {
     "id": 1750,
@@ -207,7 +247,11 @@ define({
       "loc": "Puebla 4",
       "lat": 18.9581052,
       "lng": -98.2713659
-    }
+    },
+    "distance_text": "15,6 km",
+    "distance_num": 15635,
+    "duration_text": "21 min",
+    "duration_num": 1252
   },
   {
     "id": 1665,
@@ -226,7 +270,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "13,3 km",
+    "distance_num": 13304,
+    "duration_text": "15 min",
+    "duration_num": 888
   },
   {
     "id": 1749,
@@ -245,7 +293,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "14,1 km",
+    "distance_num": 14116,
+    "duration_text": "16 min",
+    "duration_num": 958
   },
   {
     "id": 1807,
@@ -264,7 +316,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "10,3 km",
+    "distance_num": 10269,
+    "duration_text": "9 min",
+    "duration_num": 534
   },
   {
     "id": 1779,
@@ -283,7 +339,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "10,9 km",
+    "distance_num": 10933,
+    "duration_text": "13 min",
+    "duration_num": 797
   },
   {
     "id": 1782,
@@ -302,7 +362,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "11,6 km",
+    "distance_num": 11573,
+    "duration_text": "14 min",
+    "duration_num": 855
   },
   {
     "id": 1648,
@@ -321,7 +385,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "18,9 km",
+    "distance_num": 18931,
+    "duration_text": "20 min",
+    "duration_num": 1191
   },
   {
     "id": 1716,
@@ -340,7 +408,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "12,2 km",
+    "distance_num": 12153,
+    "duration_text": "17 min",
+    "duration_num": 1046
   },
   {
     "id": 1780,
@@ -359,7 +431,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "12,9 km",
+    "distance_num": 12853,
+    "duration_text": "16 min",
+    "duration_num": 953
   },
   {
     "id": 1806,
@@ -378,7 +454,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "11,8 km",
+    "distance_num": 11826,
+    "duration_text": "23 min",
+    "duration_num": 1363
   },
   {
     "id": 1669,
@@ -397,7 +477,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "12,7 km",
+    "distance_num": 12677,
+    "duration_text": "15 min",
+    "duration_num": 878
   },
   {
     "id": 1685,
@@ -416,7 +500,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "12,1 km",
+    "distance_num": 12136,
+    "duration_text": "23 min",
+    "duration_num": 1389
   },
   {
     "id": 1804,
@@ -435,7 +523,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "19,4 km",
+    "distance_num": 19390,
+    "duration_text": "20 min",
+    "duration_num": 1178
   },
   {
     "id": 1693,
@@ -454,7 +546,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "14,1 km",
+    "distance_num": 14051,
+    "duration_text": "19 min",
+    "duration_num": 1120
   },
   {
     "id": 1756,
@@ -473,7 +569,11 @@ define({
       "loc": "Puebla 4",
       "lat": 18.9581052,
       "lng": -98.2713659
-    }
+    },
+    "distance_text": "20,7 km",
+    "distance_num": 20682,
+    "duration_text": "29 min",
+    "duration_num": 1741
   },
   {
     "id": 1652,
@@ -492,7 +592,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "14,7 km",
+    "distance_num": 14658,
+    "duration_text": "19 min",
+    "duration_num": 1161
   },
   {
     "id": 1784,
@@ -511,7 +615,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "12,1 km",
+    "distance_num": 12114,
+    "duration_text": "16 min",
+    "duration_num": 965
   },
   {
     "id": 1646,
@@ -530,7 +638,11 @@ define({
       "loc": "Puebla 5",
       "lat": 19.071735,
       "lng": -98.161597
-    }
+    },
+    "distance_text": "20,0 km",
+    "distance_num": 19950,
+    "duration_text": "19 min",
+    "duration_num": 1155
   },
   {
     "id": 1767,
@@ -549,7 +661,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "14,4 km",
+    "distance_num": 14411,
+    "duration_text": "16 min",
+    "duration_num": 933
   },
   {
     "id": 1771,
@@ -568,7 +684,11 @@ define({
       "loc": "Puebla 1",
       "lat": 19.032403,
       "lng": -98.227408
-    }
+    },
+    "distance_text": "17,4 km",
+    "distance_num": 17425,
+    "duration_text": "23 min",
+    "duration_num": 1380
   },
   {
     "id": 1798,
@@ -587,7 +707,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "42,2 km",
+    "distance_num": 42247,
+    "duration_text": "1h 15 min",
+    "duration_num": 4522
   },
   {
     "id": 1813,
@@ -606,7 +730,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "16,8 km",
+    "distance_num": 16784,
+    "duration_text": "21 min",
+    "duration_num": 1233
   },
   {
     "id": 1816,
@@ -625,7 +753,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "16,0 km",
+    "distance_num": 16023,
+    "duration_text": "19 min",
+    "duration_num": 1131
   },
   {
     "id": 1721,
@@ -644,7 +776,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "23,8 km",
+    "distance_num": 23848,
+    "duration_text": "29 min",
+    "duration_num": 1757
   },
   {
     "id": 1764,
@@ -663,7 +799,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "17,8 km",
+    "distance_num": 17844,
+    "duration_text": "22 min",
+    "duration_num": 1331
   },
   {
     "id": 1706,
@@ -682,7 +822,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "24,3 km",
+    "distance_num": 24288,
+    "duration_text": "36 min",
+    "duration_num": 2183
   },
   {
     "id": 1832,
@@ -701,7 +845,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "18,9 km",
+    "distance_num": 18898,
+    "duration_text": "26 min",
+    "duration_num": 1570
   },
   {
     "id": 1835,
@@ -720,7 +868,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "24,9 km",
+    "distance_num": 24896,
+    "duration_text": "28 min",
+    "duration_num": 1672
   },
   {
     "id": 1812,
@@ -739,7 +891,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "19,5 km",
+    "distance_num": 19469,
+    "duration_text": "22 min",
+    "duration_num": 1332
   },
   {
     "id": 1797,
@@ -758,7 +914,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "16,8 km",
+    "distance_num": 16797,
+    "duration_text": "17 min",
+    "duration_num": 1010
   },
   {
     "id": 1757,
@@ -777,7 +937,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "19,8 km",
+    "distance_num": 19814,
+    "duration_text": "28 min",
+    "duration_num": 1688
   },
   {
     "id": 1775,
@@ -796,7 +960,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "19,4 km",
+    "distance_num": 19422,
+    "duration_text": "19 min",
+    "duration_num": 1143
   },
   {
     "id": 1671,
@@ -815,7 +983,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "18,2 km",
+    "distance_num": 18186,
+    "duration_text": "26 min",
+    "duration_num": 1543
   },
   {
     "id": 1637,
@@ -834,7 +1006,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "25,4 km",
+    "distance_num": 25387,
+    "duration_text": "45 min",
+    "duration_num": 2696
   },
   {
     "id": 1751,
@@ -853,7 +1029,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "23,5 km",
+    "distance_num": 23513,
+    "duration_text": "32 min",
+    "duration_num": 1941
   },
   {
     "id": 1817,
@@ -872,7 +1052,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "31,5 km",
+    "distance_num": 31499,
+    "duration_text": "29 min",
+    "duration_num": 1761
   },
   {
     "id": 1644,
@@ -891,7 +1075,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "19,9 km",
+    "distance_num": 19936,
+    "duration_text": "24 min",
+    "duration_num": 1416
   },
   {
     "id": 1820,
@@ -910,7 +1098,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "20,5 km",
+    "distance_num": 20513,
+    "duration_text": "26 min",
+    "duration_num": 1540
   },
   {
     "id": 1792,
@@ -929,7 +1121,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "18,6 km",
+    "distance_num": 18605,
+    "duration_text": "17 min",
+    "duration_num": 1002
   },
   {
     "id": 1647,
@@ -948,7 +1144,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "33,8 km",
+    "distance_num": 33835,
+    "duration_text": "41 min",
+    "duration_num": 2473
   },
   {
     "id": 1755,
@@ -967,7 +1167,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "20,7 km",
+    "distance_num": 20663,
+    "duration_text": "20 min",
+    "duration_num": 1207
   },
   {
     "id": 1632,
@@ -986,7 +1190,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "22,3 km",
+    "distance_num": 22276,
+    "duration_text": "27 min",
+    "duration_num": 1638
   },
   {
     "id": 1635,
@@ -1005,7 +1213,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "28,5 km",
+    "distance_num": 28475,
+    "duration_text": "33 min",
+    "duration_num": 1986
   },
   {
     "id": 1733,
@@ -1024,7 +1236,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "26,1 km",
+    "distance_num": 26062,
+    "duration_text": "36 min",
+    "duration_num": 2164
   },
   {
     "id": 1802,
@@ -1043,7 +1259,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "24,7 km",
+    "distance_num": 24717,
+    "duration_text": "29 min",
+    "duration_num": 1755
   },
   {
     "id": 1670,
@@ -1062,7 +1282,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "65,3 km",
+    "distance_num": 65313,
+    "duration_text": "1h 21 min",
+    "duration_num": 4881
   },
   {
     "id": 1651,
@@ -1081,7 +1305,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "20,3 km",
+    "distance_num": 20277,
+    "duration_text": "32 min",
+    "duration_num": 1891
   },
   {
     "id": 1680,
@@ -1100,7 +1328,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "64,5 km",
+    "distance_num": 64541,
+    "duration_text": "1h 28 min",
+    "duration_num": 5291
   },
   {
     "id": 1710,
@@ -1119,7 +1351,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "27,1 km",
+    "distance_num": 27116,
+    "duration_text": "34 min",
+    "duration_num": 2012
   },
   {
     "id": 1734,
@@ -1138,7 +1374,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "27,1 km",
+    "distance_num": 27149,
+    "duration_text": "30 min",
+    "duration_num": 1777
   },
   {
     "id": 1794,
@@ -1157,7 +1397,11 @@ define({
       "loc": "Puebla 5",
       "lat": 19.071735,
       "lng": -98.161597
-    }
+    },
+    "distance_text": "22,7 km",
+    "distance_num": 22743,
+    "duration_text": "14 min",
+    "duration_num": 862
   },
   {
     "id": 1700,
@@ -1176,7 +1420,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "26,2 km",
+    "distance_num": 26220,
+    "duration_text": "32 min",
+    "duration_num": 1890
   },
   {
     "id": 1682,
@@ -1195,7 +1443,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "22,4 km",
+    "distance_num": 22365,
+    "duration_text": "27 min",
+    "duration_num": 1605
   },
   {
     "id": 1785,
@@ -1214,7 +1466,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "23,1 km",
+    "distance_num": 23130,
+    "duration_text": "23 min",
+    "duration_num": 1377
   },
   {
     "id": 1819,
@@ -1233,7 +1489,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "26,0 km",
+    "distance_num": 25994,
+    "duration_text": "40 min",
+    "duration_num": 2426
   },
   {
     "id": 1752,
@@ -1252,7 +1512,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "44,9 km",
+    "distance_num": 44920,
+    "duration_text": "56 min",
+    "duration_num": 3356
   },
   {
     "id": 1653,
@@ -1271,7 +1535,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "24,0 km",
+    "distance_num": 23951,
+    "duration_text": "43 min",
+    "duration_num": 2575
   },
   {
     "id": 1793,
@@ -1290,7 +1558,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "38,2 km",
+    "distance_num": 38190,
+    "duration_text": "1h 11 min",
+    "duration_num": 4233
   },
   {
     "id": 1677,
@@ -1309,7 +1581,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "25,4 km",
+    "distance_num": 25424,
+    "duration_text": "27 min",
+    "duration_num": 1643
   },
   {
     "id": 1799,
@@ -1328,7 +1604,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "27,1 km",
+    "distance_num": 27096,
+    "duration_text": "19 min",
+    "duration_num": 1141
   },
   {
     "id": 1824,
@@ -1347,7 +1627,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "28,6 km",
+    "distance_num": 28591,
+    "duration_text": "42 min",
+    "duration_num": 2509
   },
   {
     "id": 1684,
@@ -1366,7 +1650,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "30,8 km",
+    "distance_num": 30814,
+    "duration_text": "38 min",
+    "duration_num": 2255
   },
   {
     "id": 1638,
@@ -1385,7 +1673,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "31,8 km",
+    "distance_num": 31784,
+    "duration_text": "48 min",
+    "duration_num": 2865
   },
   {
     "id": 1796,
@@ -1404,7 +1696,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "28,0 km",
+    "distance_num": 27967,
+    "duration_text": "39 min",
+    "duration_num": 2325
   },
   {
     "id": 1790,
@@ -1423,7 +1719,11 @@ define({
       "loc": "Puebla 4",
       "lat": 18.9581052,
       "lng": -98.2713659
-    }
+    },
+    "distance_text": "31,7 km",
+    "distance_num": 31681,
+    "duration_text": "49 min",
+    "duration_num": 2937
   },
   {
     "id": 1657,
@@ -1442,7 +1742,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "33,7 km",
+    "distance_num": 33686,
+    "duration_text": "46 min",
+    "duration_num": 2758
   },
   {
     "id": 1842,
@@ -1461,7 +1765,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "28,2 km",
+    "distance_num": 28182,
+    "duration_text": "39 min",
+    "duration_num": 2329
   },
   {
     "id": 1846,
@@ -1480,7 +1788,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "59,3 km",
+    "distance_num": 59335,
+    "duration_text": "1h 46 min",
+    "duration_num": 6382
   },
   {
     "id": 1838,
@@ -1499,7 +1811,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "47,7 km",
+    "distance_num": 47747,
+    "duration_text": "49 min",
+    "duration_num": 2969
   },
   {
     "id": 1645,
@@ -1518,7 +1834,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "37,0 km",
+    "distance_num": 36988,
+    "duration_text": "1h 2 min",
+    "duration_num": 3715
   },
   {
     "id": 1691,
@@ -1537,7 +1857,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "36,5 km",
+    "distance_num": 36488,
+    "duration_text": "38 min",
+    "duration_num": 2298
   },
   {
     "id": 1769,
@@ -1556,7 +1880,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "37,8 km",
+    "distance_num": 37802,
+    "duration_text": "53 min",
+    "duration_num": 3165
   },
   {
     "id": 1639,
@@ -1575,7 +1903,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "34,8 km",
+    "distance_num": 34832,
+    "duration_text": "30 min",
+    "duration_num": 1800
   },
   {
     "id": 1803,
@@ -1594,7 +1926,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "60,9 km",
+    "distance_num": 60917,
+    "duration_text": "1h 10 min",
+    "duration_num": 4220
   },
   {
     "id": 1840,
@@ -1613,7 +1949,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "37,2 km",
+    "distance_num": 37158,
+    "duration_text": "46 min",
+    "duration_num": 2787
   },
   {
     "id": 1707,
@@ -1632,7 +1972,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "39,8 km",
+    "distance_num": 39849,
+    "duration_text": "45 min",
+    "duration_num": 2680
   },
   {
     "id": 1696,
@@ -1651,7 +1995,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "33,0 km",
+    "distance_num": 33004,
+    "duration_text": "36 min",
+    "duration_num": 2164
   },
   {
     "id": 1659,
@@ -1670,7 +2018,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "53,7 km",
+    "distance_num": 53694,
+    "duration_text": "1h 38 min",
+    "duration_num": 5857
   },
   {
     "id": 1845,
@@ -1689,7 +2041,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "30,0 km",
+    "distance_num": 30019,
+    "duration_text": "27 min",
+    "duration_num": 1628
   },
   {
     "id": 1826,
@@ -1708,7 +2064,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "55,0 km",
+    "distance_num": 54983,
+    "duration_text": "57 min",
+    "duration_num": 3402
   },
   {
     "id": 1783,
@@ -1727,7 +2087,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "47,2 km",
+    "distance_num": 47175,
+    "duration_text": "46 min",
+    "duration_num": 2755
   },
   {
     "id": 1781,
@@ -1746,7 +2110,11 @@ define({
       "loc": "Puebla 4",
       "lat": 18.9581052,
       "lng": -98.2713659
-    }
+    },
+    "distance_text": "42,0 km",
+    "distance_num": 42013,
+    "duration_text": "56 min",
+    "duration_num": 3362
   },
   {
     "id": 1705,
@@ -1765,7 +2133,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "35,9 km",
+    "distance_num": 35921,
+    "duration_text": "42 min",
+    "duration_num": 2527
   },
   {
     "id": 1746,
@@ -1784,7 +2156,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "37,1 km",
+    "distance_num": 37124,
+    "duration_text": "33 min",
+    "duration_num": 1988
   },
   {
     "id": 1762,
@@ -1803,7 +2179,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "46,1 km",
+    "distance_num": 46097,
+    "duration_text": "54 min",
+    "duration_num": 3218
   },
   {
     "id": 1735,
@@ -1822,7 +2202,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "43,9 km",
+    "distance_num": 43903,
+    "duration_text": "38 min",
+    "duration_num": 2292
   },
   {
     "id": 1674,
@@ -1841,7 +2225,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "66,0 km",
+    "distance_num": 66013,
+    "duration_text": "1h 43 min",
+    "duration_num": 6180
   },
   {
     "id": 1815,
@@ -1860,7 +2248,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "107 km",
+    "distance_num": 107200,
+    "duration_text": "1h 53 min",
+    "duration_num": 6796
   },
   {
     "id": 1709,
@@ -1879,7 +2271,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "70,9 km",
+    "distance_num": 70922,
+    "duration_text": "2h 2 min",
+    "duration_num": 7333
   },
   {
     "id": 1754,
@@ -1898,7 +2294,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": false,
+    "distance_num": false,
+    "duration_text": false,
+    "duration_num": false
   },
   {
     "id": 1814,
@@ -1917,7 +2317,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "80,4 km",
+    "distance_num": 80434,
+    "duration_text": "1h 18 min",
+    "duration_num": 4673
   },
   {
     "id": 1763,
@@ -1936,7 +2340,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "33,0 km",
+    "distance_num": 33011,
+    "duration_text": "27 min",
+    "duration_num": 1606
   },
   {
     "id": 1726,
@@ -1955,7 +2363,11 @@ define({
       "loc": "Puebla 4",
       "lat": 18.9581052,
       "lng": -98.2713659
-    }
+    },
+    "distance_text": "43,1 km",
+    "distance_num": 43077,
+    "duration_text": "1h 3 min",
+    "duration_num": 3800
   },
   {
     "id": 1656,
@@ -1974,7 +2386,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "41,6 km",
+    "distance_num": 41644,
+    "duration_text": "1h 3 min",
+    "duration_num": 3762
   },
   {
     "id": 1760,
@@ -1993,7 +2409,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "37,6 km",
+    "distance_num": 37599,
+    "duration_text": "38 min",
+    "duration_num": 2289
   },
   {
     "id": 1661,
@@ -2012,7 +2432,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "51,4 km",
+    "distance_num": 51413,
+    "duration_text": "1h 31 min",
+    "duration_num": 5466
   },
   {
     "id": 1808,
@@ -2031,7 +2455,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "30,7 km",
+    "distance_num": 30704,
+    "duration_text": "25 min",
+    "duration_num": 1512
   },
   {
     "id": 1732,
@@ -2050,7 +2478,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "75,2 km",
+    "distance_num": 75186,
+    "duration_text": "1h 30 min",
+    "duration_num": 5409
   },
   {
     "id": 1730,
@@ -2069,7 +2501,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "35,8 km",
+    "distance_num": 35755,
+    "duration_text": "39 min",
+    "duration_num": 2356
   },
   {
     "id": 1841,
@@ -2088,7 +2524,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "58,7 km",
+    "distance_num": 58695,
+    "duration_text": "1h 40 min",
+    "duration_num": 5994
   },
   {
     "id": 1831,
@@ -2107,7 +2547,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "62,8 km",
+    "distance_num": 62790,
+    "duration_text": "1h 6 min",
+    "duration_num": 3981
   },
   {
     "id": 1649,
@@ -2126,7 +2570,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "43,2 km",
+    "distance_num": 43203,
+    "duration_text": "47 min",
+    "duration_num": 2817
   },
   {
     "id": 1727,
@@ -2145,7 +2593,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "46,1 km",
+    "distance_num": 46133,
+    "duration_text": "40 min",
+    "duration_num": 2400
   },
   {
     "id": 1702,
@@ -2164,7 +2616,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "55,9 km",
+    "distance_num": 55874,
+    "duration_text": "47 min",
+    "duration_num": 2830
   },
   {
     "id": 1641,
@@ -2183,7 +2639,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "75,7 km",
+    "distance_num": 75702,
+    "duration_text": "1h 17 min",
+    "duration_num": 4630
   },
   {
     "id": 1636,
@@ -2202,7 +2662,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "57,4 km",
+    "distance_num": 57368,
+    "duration_text": "51 min",
+    "duration_num": 3082
   },
   {
     "id": 1699,
@@ -2221,7 +2685,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": false,
+    "distance_num": false,
+    "duration_text": false,
+    "duration_num": false
   },
   {
     "id": 1729,
@@ -2240,7 +2708,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "41,9 km",
+    "distance_num": 41874,
+    "duration_text": "49 min",
+    "duration_num": 2926
   },
   {
     "id": 1836,
@@ -2259,7 +2731,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "36,9 km",
+    "distance_num": 36880,
+    "duration_text": "29 min",
+    "duration_num": 1719
   },
   {
     "id": 1664,
@@ -2278,7 +2754,11 @@ define({
       "loc": "Atlixco",
       "lat": 18.9088721,
       "lng": -98.4328641
-    }
+    },
+    "distance_text": "40,6 km",
+    "distance_num": 40613,
+    "duration_text": "51 min",
+    "duration_num": 3048
   },
   {
     "id": 1662,
@@ -2297,7 +2777,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "49,1 km",
+    "distance_num": 49144,
+    "duration_text": "1h 3 min",
+    "duration_num": 3790
   },
   {
     "id": 1847,
@@ -2316,7 +2800,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "73,9 km",
+    "distance_num": 73862,
+    "duration_text": "1h 40 min",
+    "duration_num": 6015
   },
   {
     "id": 1708,
@@ -2335,7 +2823,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "55,0 km",
+    "distance_num": 55023,
+    "duration_text": "1h 37 min",
+    "duration_num": 5798
   },
   {
     "id": 1843,
@@ -2354,7 +2846,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "61,9 km",
+    "distance_num": 61927,
+    "duration_text": "1h 0 min",
+    "duration_num": 3599
   },
   {
     "id": 1679,
@@ -2373,7 +2869,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "45,7 km",
+    "distance_num": 45717,
+    "duration_text": "46 min",
+    "duration_num": 2735
   },
   {
     "id": 1748,
@@ -2392,7 +2892,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "50,7 km",
+    "distance_num": 50652,
+    "duration_text": "44 min",
+    "duration_num": 2662
   },
   {
     "id": 1788,
@@ -2411,7 +2915,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "41,5 km",
+    "distance_num": 41513,
+    "duration_text": "32 min",
+    "duration_num": 1893
   },
   {
     "id": 1722,
@@ -2430,7 +2938,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "69,7 km",
+    "distance_num": 69687,
+    "duration_text": "55 min",
+    "duration_num": 3272
   },
   {
     "id": 1833,
@@ -2449,7 +2961,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "73,5 km",
+    "distance_num": 73532,
+    "duration_text": "1h 31 min",
+    "duration_num": 5431
   },
   {
     "id": 1753,
@@ -2468,7 +2984,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "43,4 km",
+    "distance_num": 43413,
+    "duration_text": "44 min",
+    "duration_num": 2630
   },
   {
     "id": 1719,
@@ -2487,7 +3007,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "71,3 km",
+    "distance_num": 71254,
+    "duration_text": "1h 38 min",
+    "duration_num": 5903
   },
   {
     "id": 1633,
@@ -2506,7 +3030,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "49,1 km",
+    "distance_num": 49141,
+    "duration_text": "1h 8 min",
+    "duration_num": 4073
   },
   {
     "id": 1834,
@@ -2525,7 +3053,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "45,2 km",
+    "distance_num": 45227,
+    "duration_text": "55 min",
+    "duration_num": 3322
   },
   {
     "id": 1701,
@@ -2544,7 +3076,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "54,8 km",
+    "distance_num": 54842,
+    "duration_text": "1h 5 min",
+    "duration_num": 3883
   },
   {
     "id": 1673,
@@ -2563,7 +3099,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "64,9 km",
+    "distance_num": 64921,
+    "duration_text": "1h 15 min",
+    "duration_num": 4480
   },
   {
     "id": 1711,
@@ -2582,7 +3122,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "105 km",
+    "distance_num": 104608,
+    "duration_text": "2h 19 min",
+    "duration_num": 8312
   },
   {
     "id": 1675,
@@ -2601,7 +3145,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "69,8 km",
+    "distance_num": 69828,
+    "duration_text": "56 min",
+    "duration_num": 3382
   },
   {
     "id": 1715,
@@ -2620,7 +3168,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "62,5 km",
+    "distance_num": 62512,
+    "duration_text": "1h 48 min",
+    "duration_num": 6472
   },
   {
     "id": 1678,
@@ -2639,7 +3191,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "58,5 km",
+    "distance_num": 58546,
+    "duration_text": "1h 15 min",
+    "duration_num": 4520
   },
   {
     "id": 1759,
@@ -2658,7 +3214,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "61,6 km",
+    "distance_num": 61610,
+    "duration_text": "1h 0 min",
+    "duration_num": 3628
   },
   {
     "id": 1723,
@@ -2677,7 +3237,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "45,9 km",
+    "distance_num": 45927,
+    "duration_text": "54 min",
+    "duration_num": 3230
   },
   {
     "id": 1823,
@@ -2696,7 +3260,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "67,7 km",
+    "distance_num": 67733,
+    "duration_text": "1h 36 min",
+    "duration_num": 5773
   },
   {
     "id": 1658,
@@ -2715,7 +3283,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "55,4 km",
+    "distance_num": 55390,
+    "duration_text": "1h 6 min",
+    "duration_num": 3944
   },
   {
     "id": 1714,
@@ -2734,7 +3306,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "61,9 km",
+    "distance_num": 61944,
+    "duration_text": "1h 16 min",
+    "duration_num": 4534
   },
   {
     "id": 1704,
@@ -2753,7 +3329,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "45,6 km",
+    "distance_num": 45600,
+    "duration_text": "1h 0 min",
+    "duration_num": 3588
   },
   {
     "id": 1774,
@@ -2772,7 +3352,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "52,7 km",
+    "distance_num": 52725,
+    "duration_text": "41 min",
+    "duration_num": 2473
   },
   {
     "id": 1801,
@@ -2791,7 +3375,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "80,7 km",
+    "distance_num": 80728,
+    "duration_text": "1h 25 min",
+    "duration_num": 5101
   },
   {
     "id": 1731,
@@ -2810,7 +3398,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "62,4 km",
+    "distance_num": 62443,
+    "duration_text": "1h 0 min",
+    "duration_num": 3603
   },
   {
     "id": 1738,
@@ -2829,7 +3421,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "70,5 km",
+    "distance_num": 70516,
+    "duration_text": "1h 58 min",
+    "duration_num": 7068
   },
   {
     "id": 1773,
@@ -2848,7 +3444,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "47,4 km",
+    "distance_num": 47353,
+    "duration_text": "41 min",
+    "duration_num": 2440
   },
   {
     "id": 1683,
@@ -2867,7 +3467,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "55,9 km",
+    "distance_num": 55867,
+    "duration_text": "1h 10 min",
+    "duration_num": 4225
   },
   {
     "id": 1720,
@@ -2886,7 +3490,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "111 km",
+    "distance_num": 111281,
+    "duration_text": "1h 52 min",
+    "duration_num": 6730
   },
   {
     "id": 1761,
@@ -2905,7 +3513,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "59,5 km",
+    "distance_num": 59501,
+    "duration_text": "1h 2 min",
+    "duration_num": 3695
   },
   {
     "id": 1660,
@@ -2924,7 +3536,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "86,5 km",
+    "distance_num": 86482,
+    "duration_text": "2h 1 min",
+    "duration_num": 7261
   },
   {
     "id": 1703,
@@ -2943,7 +3559,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "68,8 km",
+    "distance_num": 68824,
+    "duration_text": "1h 58 min",
+    "duration_num": 7055
   },
   {
     "id": 1765,
@@ -2962,7 +3582,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "50,9 km",
+    "distance_num": 50851,
+    "duration_text": "42 min",
+    "duration_num": 2506
   },
   {
     "id": 1666,
@@ -2981,7 +3605,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": false,
+    "distance_num": false,
+    "duration_text": false,
+    "duration_num": false
   },
   {
     "id": 1777,
@@ -3000,7 +3628,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "64,3 km",
+    "distance_num": 64349,
+    "duration_text": "1h 19 min",
+    "duration_num": 4712
   },
   {
     "id": 1791,
@@ -3019,7 +3651,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "46,3 km",
+    "distance_num": 46263,
+    "duration_text": "1h 1 min",
+    "duration_num": 3658
   },
   {
     "id": 1837,
@@ -3038,7 +3674,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "60,9 km",
+    "distance_num": 60873,
+    "duration_text": "1h 12 min",
+    "duration_num": 4319
   },
   {
     "id": 1741,
@@ -3057,7 +3697,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "50,5 km",
+    "distance_num": 50479,
+    "duration_text": "46 min",
+    "duration_num": 2768
   },
   {
     "id": 1789,
@@ -3076,7 +3720,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "58,4 km",
+    "distance_num": 58363,
+    "duration_text": "1h 29 min",
+    "duration_num": 5319
   },
   {
     "id": 1643,
@@ -3095,7 +3743,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "58,9 km",
+    "distance_num": 58852,
+    "duration_text": "58 min",
+    "duration_num": 3450
   },
   {
     "id": 1736,
@@ -3114,7 +3766,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "75,2 km",
+    "distance_num": 75198,
+    "duration_text": "1h 4 min",
+    "duration_num": 3843
   },
   {
     "id": 1844,
@@ -3133,7 +3789,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "112 km",
+    "distance_num": 112200,
+    "duration_text": "1h 56 min",
+    "duration_num": 6943
   },
   {
     "id": 1668,
@@ -3152,7 +3812,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "61,4 km",
+    "distance_num": 61387,
+    "duration_text": "1h 7 min",
+    "duration_num": 4001
   },
   {
     "id": 1713,
@@ -3171,7 +3835,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "65,9 km",
+    "distance_num": 65937,
+    "duration_text": "1h 11 min",
+    "duration_num": 4283
   },
   {
     "id": 1848,
@@ -3190,7 +3858,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "83,2 km",
+    "distance_num": 83164,
+    "duration_text": "1h 39 min",
+    "duration_num": 5942
   },
   {
     "id": 1694,
@@ -3209,7 +3881,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "62,6 km",
+    "distance_num": 62627,
+    "duration_text": "45 min",
+    "duration_num": 2711
   },
   {
     "id": 1828,
@@ -3228,7 +3904,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "97,9 km",
+    "distance_num": 97917,
+    "duration_text": "1h 26 min",
+    "duration_num": 5173
   },
   {
     "id": 1690,
@@ -3247,7 +3927,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "68,4 km",
+    "distance_num": 68361,
+    "duration_text": "56 min",
+    "duration_num": 3345
   },
   {
     "id": 1740,
@@ -3266,7 +3950,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "91,0 km",
+    "distance_num": 90954,
+    "duration_text": "1h 55 min",
+    "duration_num": 6909
   },
   {
     "id": 1811,
@@ -3285,7 +3973,11 @@ define({
       "loc": "Puebla 3",
       "lat": 19.1021823,
       "lng": -98.2230604
-    }
+    },
+    "distance_text": "52,6 km",
+    "distance_num": 52603,
+    "duration_text": "42 min",
+    "duration_num": 2505
   },
   {
     "id": 1688,
@@ -3304,7 +3996,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "78,0 km",
+    "distance_num": 78050,
+    "duration_text": "1h 14 min",
+    "duration_num": 4414
   },
   {
     "id": 1655,
@@ -3323,7 +4019,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "72,6 km",
+    "distance_num": 72610,
+    "duration_text": "1h 10 min",
+    "duration_num": 4194
   },
   {
     "id": 1778,
@@ -3342,7 +4042,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "85,5 km",
+    "distance_num": 85521,
+    "duration_text": "1h 43 min",
+    "duration_num": 6182
   },
   {
     "id": 1676,
@@ -3361,7 +4065,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "80,0 km",
+    "distance_num": 79977,
+    "duration_text": "1h 9 min",
+    "duration_num": 4138
   },
   {
     "id": 1821,
@@ -3380,7 +4088,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "68,0 km",
+    "distance_num": 67968,
+    "duration_text": "1h 17 min",
+    "duration_num": 4633
   },
   {
     "id": 1725,
@@ -3399,7 +4111,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "82,0 km",
+    "distance_num": 82004,
+    "duration_text": "1h 2 min",
+    "duration_num": 3728
   },
   {
     "id": 1640,
@@ -3418,7 +4134,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "62,1 km",
+    "distance_num": 62119,
+    "duration_text": "45 min",
+    "duration_num": 2724
   },
   {
     "id": 1663,
@@ -3437,7 +4157,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "80,6 km",
+    "distance_num": 80553,
+    "duration_text": "1h 53 min",
+    "duration_num": 6785
   },
   {
     "id": 1667,
@@ -3456,7 +4180,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "72,5 km",
+    "distance_num": 72503,
+    "duration_text": "1h 29 min",
+    "duration_num": 5365
   },
   {
     "id": 1768,
@@ -3475,7 +4203,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "61,8 km",
+    "distance_num": 61750,
+    "duration_text": "50 min",
+    "duration_num": 3024
   },
   {
     "id": 1809,
@@ -3494,7 +4226,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "149 km",
+    "distance_num": 148599,
+    "duration_text": "2h 25 min",
+    "duration_num": 8708
   },
   {
     "id": 1654,
@@ -3513,7 +4249,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "73,2 km",
+    "distance_num": 73238,
+    "duration_text": "59 min",
+    "duration_num": 3564
   },
   {
     "id": 1739,
@@ -3532,7 +4272,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "72,5 km",
+    "distance_num": 72509,
+    "duration_text": "1h 1 min",
+    "duration_num": 3675
   },
   {
     "id": 1692,
@@ -3551,7 +4295,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "107 km",
+    "distance_num": 107085,
+    "duration_text": "1h 59 min",
+    "duration_num": 7127
   },
   {
     "id": 1818,
@@ -3570,7 +4318,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "117 km",
+    "distance_num": 116831,
+    "duration_text": "2h 37 min",
+    "duration_num": 9408
   },
   {
     "id": 1687,
@@ -3589,7 +4341,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "117 km",
+    "distance_num": 116988,
+    "duration_text": "1h 39 min",
+    "duration_num": 5950
   },
   {
     "id": 1800,
@@ -3608,7 +4364,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "69,0 km",
+    "distance_num": 69035,
+    "duration_text": "1h 15 min",
+    "duration_num": 4527
   },
   {
     "id": 1718,
@@ -3627,7 +4387,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "73,4 km",
+    "distance_num": 73368,
+    "duration_text": "1h 24 min",
+    "duration_num": 5035
   },
   {
     "id": 1698,
@@ -3646,7 +4410,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "88,6 km",
+    "distance_num": 88645,
+    "duration_text": "1h 34 min",
+    "duration_num": 5616
   },
   {
     "id": 1724,
@@ -3665,7 +4433,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "96,0 km",
+    "distance_num": 95996,
+    "duration_text": "1h 45 min",
+    "duration_num": 6323
   },
   {
     "id": 1810,
@@ -3684,7 +4456,11 @@ define({
       "loc": "Tepeaca",
       "lat": 18.9631903,
       "lng": -97.9020527
-    }
+    },
+    "distance_text": "77,1 km",
+    "distance_num": 77136,
+    "duration_text": "1h 15 min",
+    "duration_num": 4494
   },
   {
     "id": 1717,
@@ -3703,7 +4479,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "103 km",
+    "distance_num": 102829,
+    "duration_text": "1h 13 min",
+    "duration_num": 4399
   },
   {
     "id": 1829,
@@ -3722,7 +4502,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "134 km",
+    "distance_num": 133650,
+    "duration_text": "2h 4 min",
+    "duration_num": 7466
   },
   {
     "id": 1758,
@@ -3741,7 +4525,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "82,5 km",
+    "distance_num": 82496,
+    "duration_text": "1h 37 min",
+    "duration_num": 5793
   },
   {
     "id": 1744,
@@ -3760,7 +4548,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "84,4 km",
+    "distance_num": 84421,
+    "duration_text": "1h 8 min",
+    "duration_num": 4060
   },
   {
     "id": 1766,
@@ -3779,7 +4571,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "111 km",
+    "distance_num": 111260,
+    "duration_text": "2h 29 min",
+    "duration_num": 8968
   },
   {
     "id": 1776,
@@ -3798,7 +4594,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "152 km",
+    "distance_num": 151564,
+    "duration_text": "3h 4 min",
+    "duration_num": 11024
   },
   {
     "id": 1770,
@@ -3817,7 +4617,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "87,9 km",
+    "distance_num": 87869,
+    "duration_text": "1h 17 min",
+    "duration_num": 4597
   },
   {
     "id": 1689,
@@ -3836,7 +4640,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "107 km",
+    "distance_num": 106555,
+    "duration_text": "1h 54 min",
+    "duration_num": 6841
   },
   {
     "id": 1827,
@@ -3855,7 +4663,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "88,4 km",
+    "distance_num": 88385,
+    "duration_text": "1h 40 min",
+    "duration_num": 6009
   },
   {
     "id": 1786,
@@ -3874,7 +4686,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "90,5 km",
+    "distance_num": 90539,
+    "duration_text": "1h 12 min",
+    "duration_num": 4316
   },
   {
     "id": 1634,
@@ -3893,7 +4709,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "94,8 km",
+    "distance_num": 94791,
+    "duration_text": "1h 18 min",
+    "duration_num": 4684
   },
   {
     "id": 1642,
@@ -3912,7 +4732,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "147 km",
+    "distance_num": 147093,
+    "duration_text": "2h 0 min",
+    "duration_num": 7174
   },
   {
     "id": 1712,
@@ -3931,7 +4755,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "111 km",
+    "distance_num": 110975,
+    "duration_text": "2h 20 min",
+    "duration_num": 8376
   },
   {
     "id": 1743,
@@ -3950,7 +4778,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "100 km",
+    "distance_num": 100035,
+    "duration_text": "1h 53 min",
+    "duration_num": 6758
   },
   {
     "id": 1697,
@@ -3969,7 +4801,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "99,7 km",
+    "distance_num": 99706,
+    "duration_text": "1h 22 min",
+    "duration_num": 4906
   },
   {
     "id": 1747,
@@ -3988,7 +4824,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "131 km",
+    "distance_num": 131136,
+    "duration_text": "2h 31 min",
+    "duration_num": 9059
   },
   {
     "id": 1825,
@@ -4007,7 +4847,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "135 km",
+    "distance_num": 134783,
+    "duration_text": "1h 42 min",
+    "duration_num": 6111
   },
   {
     "id": 1822,
@@ -4026,7 +4870,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "104 km",
+    "distance_num": 104272,
+    "duration_text": "1h 26 min",
+    "duration_num": 5133
   },
   {
     "id": 1742,
@@ -4045,7 +4893,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "121 km",
+    "distance_num": 121473,
+    "duration_text": "1h 42 min",
+    "duration_num": 6109
   },
   {
     "id": 1686,
@@ -4064,7 +4916,11 @@ define({
       "loc": "Tehuacán",
       "lat": 18.4613871,
       "lng": -97.4191649
-    }
+    },
+    "distance_text": "117 km",
+    "distance_num": 116718,
+    "duration_text": "2h 16 min",
+    "duration_num": 8180
   },
   {
     "id": 1772,
@@ -4083,7 +4939,11 @@ define({
       "loc": "Izúcar",
       "lat": 18.603046,
       "lng": -98.46727
-    }
+    },
+    "distance_text": "97,8 km",
+    "distance_num": 97843,
+    "duration_text": "1h 29 min",
+    "duration_num": 5310
   },
   {
     "id": 1681,
@@ -4102,7 +4962,11 @@ define({
       "loc": "Teziutlán",
       "lat": 19.8179911,
       "lng": -97.3612153
-    }
+    },
+    "distance_text": "140 km",
+    "distance_num": 139764,
+    "duration_text": "2h 37 min",
+    "duration_num": 9422
   },
   {
     "id": 1695,
@@ -4121,7 +4985,11 @@ define({
       "loc": "Zacatlán",
       "lat": 19.922872,
       "lng": -97.962522
-    }
+    },
+    "distance_text": "185 km",
+    "distance_num": 185026,
+    "duration_text": "2h 35 min",
+    "duration_num": 9270
   }
 ]
 });
