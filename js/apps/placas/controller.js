@@ -14,6 +14,8 @@ define(function(require){
   var Backbone   = require('backbone'),
       Collection = require('collections/municipios'),
       Big_cities = require('views/big_cities'),
+      Worst_cities = require('views/worst_cities'),
+      SVG_map    = require('views/svg_map'),
       d3         = require('d3'),
       G          = require('goog!maps,3.17,other_params:sensor=false&region=MX'),
       Municipios = require('data/puebla'),
@@ -65,10 +67,11 @@ define(function(require){
       this.big_cities = [];
 
       // exectute the calc
-      this.map_data();
+      // this.map_data();
 
       // colorize :D & assign color values
-      this.colorize_svg();
+      this.svg_map = new SVG_map({collection : this.collection});
+      this.svg_map.render();
 
       // create the full list
       this.render_full_list();
@@ -76,6 +79,10 @@ define(function(require){
       // render the big cities
       this.big_cities_view = new Big_cities({collection : this.collection});
       this.big_cities_view.render();
+
+      this.worst_cities = new Worst_cities({collection : this.collection});
+      this.worst_cities.render();
+
 
       // render the google map
       // this.render_google_map();
@@ -142,48 +149,6 @@ define(function(require){
           icon: pinImage
         }));
       }, this);
-    },
-
-    //
-    // P R E P A R E   T H E   D A T A
-    // 
-    map_data : function(){
-      this.collection.each(function(city){
-        // create a new collection with the basic data
-        this.cities.push(city.pick('clave_municipio', 'nombre_municipio', 'distance'));
-        if(city.get('poblacion') > 50000) this.big_cities.push(city.pick('clave_municipio', 'nombre_municipio', 'distance', 'poblacion'));
-      }, this);
-
-      // sort
-      this.cities.sort(function(a,b){return  a.distance-b.distance});
-
-      // sort by cities
-      this.big_cities.sort(function(a,b){return  b.poblacion-a.poblacion});
-
-      this.collection.sort();
-    },
-
-    //
-    // C O L O R I Z E   T H E   S V G
-    //
-    colorize_svg : function(){
-      // SET THE COLORS ON THE MAP
-      var that = this; // cheap trick again
-      var states = d3.select('#PUEBLA')
-        .selectAll('path')
-          .attr('style', function(){
-            var id       = Number(this.getAttribute('id'));
-            var fill     = '#000';
-
-            try{
-              var item     = that.collection.findWhere({clave_municipio : id});
-              fill = Colores.color[item.get('level')];
-            }
-            catch(err){
-              // the metropolitan zones doesn't have a valid ID
-            }
-            return 'fill: ' + fill + '; cursor: pointer';  
-        })
     }
   });
 

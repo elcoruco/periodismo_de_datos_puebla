@@ -1,7 +1,7 @@
 // PINCHES PLACAS APP
 // @package  : placas
 // @location : /js/apps/placas/views
-// @file     : big_cities.js
+// @file     : svg_map.js
 // @author   : Gobierno fácil
 // @url      : http://gobiernofacil.com
 
@@ -11,12 +11,13 @@ define(function(require){
   //
   var Backbone   = require('backbone'),
       d3         = require('d3'),
-      Big_city   = require('text!templates/svg-map-description.html'),
+      Colores    = require('data/colores'),
+      Display    = require('text!templates/svg-map-description.html');
 
   //
   // I N I T I A L I Z E   T H E   B A C K B O N E   V I E W
   //
-  var big_cities = Backbone.View.extend({
+  var svg_map = Backbone.View.extend({
 
     //
     // D E F I N E   T H E   E V E N T S
@@ -28,12 +29,11 @@ define(function(require){
     //
     // D E F I N E   T H E   T E M P L A T E S
     // 
-    big_city : _.template(Big_city),
 
     //
     // S E T   T H E   C O N T A I N E R
     //
-    el : '#main.placas #top-ten',
+    el : '#main.placas #base-map',
 
 
     //
@@ -52,20 +52,19 @@ define(function(require){
       var states = d3.select('#PUEBLA')
         .selectAll('path')
           .attr('style', function(){
-            var id       = Number(this.getAttribute('id'));
-            var fill     = '#000';
+            var id   = Number(this.getAttribute('id'));
+            var fill = '#000';
 
             try{
-              var item     = that.collection.findWhere({clave_municipio : id});
-              fill = Colores.color[item.get('level')];
+              var item = that.collection.findWhere({clave_municipio : id});
+              fill     = Colores.color[item.get('level')];
             }
             catch(err){
               // the metropolitan zones doesn't have a valid ID
             }
             return 'fill: ' + fill + '; cursor: pointer';  
           })
-        }
-      }
-    });
-  return big_cities;
+    }
+  });
+  return svg_map;
 });
