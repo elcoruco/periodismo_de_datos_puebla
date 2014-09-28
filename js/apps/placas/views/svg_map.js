@@ -11,11 +11,7 @@ define(function(require){
   //
   var Backbone   = require('backbone'),
       d3         = require('d3'),
-      G          = require('goog!maps,3.17,other_params:sensor=false&region=MX'),
-      Municipios = require('data/puebla'),
-      Collection = require('collections/municipios'),
-      Big_city   = require('text!templates/big-city.html'),
-      Colores    = require('data/colores');
+      Big_city   = require('text!templates/svg-map-description.html'),
 
   //
   // I N I T I A L I Z E   T H E   B A C K B O N E   V I E W
@@ -44,27 +40,32 @@ define(function(require){
     // T H E   I N I T I A L I Z E   F U N C T I O N
     //
     initialize : function(){
-      this.cities = this.collection.toJSON();
-      this.cities.sort(function(a,b){
-        return b.poblacion-a.poblacion;
-      });
-
-      this.cities = this.cities.slice(0,20);
+   
     },
 
     //
     // R E N D E R
     //
     render : function(){
-      _.each(this.cities, function(city){
-        var comma = d3.format(',');
-        city.poblacion = comma(city.poblacion);
-        city.autos_2013 = comma(city.autos_2013);
-        this.$('thead').append(this.big_city(city));
-      }, this);
-      return this;
-    }
-  });
+      // SET THE COLORS ON THE MAP
+      var that = this; // cheap trick again
+      var states = d3.select('#PUEBLA')
+        .selectAll('path')
+          .attr('style', function(){
+            var id       = Number(this.getAttribute('id'));
+            var fill     = '#000';
 
+            try{
+              var item     = that.collection.findWhere({clave_municipio : id});
+              fill = Colores.color[item.get('level')];
+            }
+            catch(err){
+              // the metropolitan zones doesn't have a valid ID
+            }
+            return 'fill: ' + fill + '; cursor: pointer';  
+          })
+        }
+      }
+    });
   return big_cities;
 });

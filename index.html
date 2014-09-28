@@ -1,33 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="utf-8">
+  <!-- bootstrap thing -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Qué tan lejos te mandaron. (A cambiar tus placas)</title>
   <link rel="stylesheet" type="text/css" href="/css/dev.css">
+  <link rel="stylesheet" type="text/css" href="/js/bower_components/bootstrap/dist/css/bootstrap.css">
+
 </head>
 <body>
-  <article id="main" class="placas">
+  <article id="main" class="placas" class="container">
     <h1>Qué tan lejos te mandaron</h1>
-
-    <!-- INTENTO DE GRÁFICA -->
-    <section id="intento">
-    <h2>Intento de gráfica (#intento)</h2>
-    </section>
+    <p></p>
 
     <!-- LOS TOP TEN. AUNQUE NO SEAN TEN NI TOP -->
     <section id="top-ten">
-      <h2>Las ciudades de más de 50,000 habitantes</h2>
-      <ol></ol>
+      <h2>Los 15 municipios con mayor población</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Municipio</th>
+            <th>Población</th>
+            <th>Autos en circulación</th>
+            <th>IDH</th>
+            <th>Centro más cercano</th>
+            <th>tiempo</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </section>
 
-    <!-- THE GOOGLE MAP, BECAUSE GOOGLE. AND MAPS. -->
+    <!-- THE GOOGLE MAP, BECAUSE GOOGLE. AND MAPS. 
     <section id="google-1">
       <div id="centers-and-big-cities"></div>
     </section>
-
+    -->
     <!-- EL MAPA QUE NOS VOLAMOS DE TRANSPARENCIA PRESUPUESTARIA -->
     <section id="base-map">
     <h2>El mapa de la suerte</h2>
+      <ul class="list-group">
+      </ul>
+
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="650" height="540">
                 <g id="PUEBLA" opacity="1" stroke-width=".2" fill="#ffffff" stroke="#1e336a" transform="scale(.5) translate(100, -25)">
                     <!--INICIO DE PATHS-->

@@ -48,6 +48,14 @@ define(function(require){
     initialize : function(){
       // city collection
       this.collection = new Collection(Municipios.puebla);
+      
+      // add the color attribute to the collection
+      this.collection.each(function(city){
+        city.set({
+          color : Colores.color[city.get('level')]
+        });
+      }, this);
+
       // offices collection
       this.offices = new Backbone.Collection(Centros.centros);
       // the data array
@@ -66,86 +74,13 @@ define(function(require){
       this.render_full_list();
 
       // render the big cities
-      this.render_big_cities();
-      this.big_cities_view = new Big_cities({cities : this.collection.toJSON()});
+      this.big_cities_view = new Big_cities({collection : this.collection});
+      this.big_cities_view.render();
 
       // render the google map
       // this.render_google_map();
     },
 
-    //
-    //
-    //
-    intento : function(){
-      data = [];
-      this.collection.each(function(city){
-        data.push({
-          'gente'     : city.get('poblacion'), 
-          'autos'     : city.get('autos_2013'), 
-          'IDH'       : city.get('idh'), 
-          'distancia' : city.get('ciudad_distance_num')
-        });
-      }, this);
-
-      data = data.slice(0, 10);
-
-      // console.table(data);
-      // THE SVG THING
-      var m = [30,10,10,10],
-          w = 600 - m[1] - m[3],
-          h = 500 - m[0] - m[2];
-
-      var domain = dimensions = ['gente', 'autos', 'IDH', 'distancia'];
-
-      var x = d3.scale.ordinal().domain(domain).rangePoints([0,w], .5),
-          y = {};
-
-      var line = d3.svg.line(),
-          axis = d3.svg.axis().orient('left'),
-          backbround,
-          foreground;
-
-      var svg = d3.select('#intento').append('svg')
-        .attr('width', w + m[1] + m[3])
-        .attr('height', h + m[0] + m[2])
-        .append('g')
-          .attr('transform', 'translate(' + m[3] + ',' + m[0] + ')');
-
-        _.each(domain, function(el, index){
-          y[el] = d3.scale.linear()
-            .domain(d3.extent(data, function(d){ return d[el]}))
-            .range([h,0]);
-        }, this);
-
-        
-        background = svg.append('g')
-            .attr('class', 'blackground')
-          .selectAll('path')
-            .data(data)
-          .enter().append('path')
-            .attr('d', path);
-      
-        function path(d){
-          var m = line(dimensions.map(function(p){
-            return [x(p), y[p](d[p])];
-          }));
-          //console.table(m);
-          return m;
-        }
-
-    },
-
-    //
-    //
-    //
-    render_big_cities : function(){
-      /*
-      _.each(this.big_cities, function(city){
-        var c = this.collection.findWhere({clave_municipio : city.clave_municipio});
-        this.$('#top-ten ol').append('<li><span style="background:' + Colores.color[c.get('level')] +'; display:inline-block; height:1em; width:1em;"></span><em>' + c.get('nombre_municipio') + '</em>: ' + c.get('poblacion') + '</li>');
-      }, this);
-*/
-    },
 
     //
     // R E N D E R   T H E   C O M P L E T E   C I T Y   L I S T
