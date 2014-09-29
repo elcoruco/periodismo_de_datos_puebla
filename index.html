@@ -1193,6 +1193,55 @@
 
       </ol>
     </section>
+
+    <aside>
+      <h4>Descripción técnica</h4>
+      <p><img src="/imgs/reporte.jpg"></p>
+      <p>Este proyecto tiene poco de investigación y mucho de “hacking cívico”. El punto era demostrar 
+      que al gobierno de Puebla le vale gorro Texmelucan: hay que peregrinar a la ciudad de Puebla 
+      para cambiar placas; para estudiar en la Universidad; para quejarse en PROFECO; para registrarse 
+      en Hacienda… incluso es en Huejotzingo donde se tramita el servicio militar.</p>
+
+      <p>Aquí el procedimiento:</p>
+      <ul>
+        <ol>Me volé un mapa de Puebla en SVG de  
+          <a href="http://www.transparenciapresupuestaria.gob.mx/es/PTP/Entidades_Federativas">
+          transparencia presupuestaria</a>
+        </ol>
+
+        <ol>Busqué las coordenadas de los 
+          <a href="http://www.puebla.gob.mx/images/canje-autorizado.jpg">
+          centros de cambio de placas</a> en Google maps.
+        </ol>
+
+        <ol>Calculé la distancia entre el centro de cada municipio y los doce centros de canje usando
+        la fórmula de Haversine, y a cada uno le asigné el centro "más cercano".</ol>
+
+        calculé la distancia entre el un municipio y el centro de canje de placas más cercano. La ubicación de cada 
+      municipio la tomé de la DB del Censo del 2010 del INEGI; la ubicación de los centros de 
+      canje los obtuve de Google maps, buscando las direcciones que aparecen en el sitio del 
+      ayuntamiento de Puebla. El número de centros fue de 12 inicialmente, y aunque agregaron 
+      muchos más conforme avanzó el periodo de reemplacamiento, ninguno de esos se instaló 
+      en San Martín Texmelucan.</p>
+
+      <p>Las distancias se calcularon primero utilizando la fórmula de Haversine, para 
+      ubicar el centro más cercano, para después usar el Servicio de matriz de distancia 
+      (Google) para calcular distancias y tiempos en carretera.</p> 
+
+      <p>Para completar la información, agregué el número de autos en circulación por municipio. 
+      El indicador lo obtuve en INEGI fácil (of course), para después recolectar el último 
+      valor (2013) para cada municipio de Puebla, utilizando la librería de PHP de 
+      INEGI fácil (of course).</p> 
+
+      <p>Por último, agregué la información de población y el Índice de desarrollo humano, 
+      obtenido de los amigos de http://intellitrendsmx.blogspot.mx, en un hackatón 
+      en la IBERO de Santa   Fé.</p>
+
+      <p>Todo fue programado con PHP y Javascript. Usé Backbone para organizar el código, 
+      d3 para manejar el mapa SVG y el API de google maps para calcular distancia y tiempos finales.</p>
+
+      <p>El tiempo de desarrollo fue de aproximadamente 30 horas O____O.</p>
+    </aside>
   </article>
 
   <!-- development JS config -->
