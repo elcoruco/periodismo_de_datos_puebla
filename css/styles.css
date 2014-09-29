@@ -65,7 +65,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline; }
 
 h1, h2, h3, h4, h5, .cta, blockquote.feature, #access, #insidenav, #pagination, .bloglist .more, blockquote {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500; }
 
 /* = HEADINGS */
@@ -119,7 +119,8 @@ h6 {
 /* = TEXT */
 p, ul, ol, dl, table, form {
   /* 13px */
-  font-family: sans-serif;
+  color: #777;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   margin: 0 0 1.5em 0; }
 
@@ -127,7 +128,7 @@ p, ul, ol, dl, table, form {
 a, a:link {
   color: #302d2e;
   background-color: transparent;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none; }
 
 .alt a, .alt a:link {
@@ -759,7 +760,7 @@ input:focus, select:focus, textarea:focus {
 /* =Main content and comment content
 -------------------------------------------------------------- */
 html {
-  background: url(/imgs/popo.jpg) no-repeat center center fixed;
+  background: url(/imgs/popo3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -767,31 +768,32 @@ html {
 
 header.canje {
   background: #1c4d88;
-  margin: 0 0 50px; }
+  margin: 0 0 70px;
+  padding: 60px 0 28px; }
   header.canje h1 {
+    border-top: 1px solid #d56532;
     color: white;
     line-height: 1.5em;
     text-align: center;
     text-shadow: 2px 2px #1e4886;
-    padding: 10px 0 0; }
+    padding: 45px 0 5px;
+    margin: 20px 0; }
   header.canje h2 {
     color: #fff;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     padding: 20px 0 0;
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    line-height: 1; }
     header.canje h2 span {
       display: block;
-      font-size: 38px; }
+      font-size: 46px; }
   header.canje .lejos {
     background: #f5f6f6;
     border-top: 6px solid #d56532;
-    padding: 20px 0 40px; }
-    header.canje .lejos h2 {
-      color: #777;
-      font-size: 32px;
-      text-transform: none; }
+    margin-top: 20px;
+    padding: 0 0 40px; }
 
 .logoplacas {
   background: url(/imgs/placas-gratis-puebla.png) no-repeat -2px -2px;
@@ -811,7 +813,7 @@ header.canje {
 
 .content {
   border: 10px solid rgba(255, 255, 255, 0.5);
-  margin: 100px auto;
+  margin: 100px auto 200px;
   background: #fff;
   -moz-background-clip: border;
   /* Firefox 3.6 */
@@ -834,6 +836,20 @@ header.canje {
   border-radius: 16px;
   padding: 0;
   background-radius: 8px; }
+
+h2.mandaron {
+  color: #1c4d88;
+  font-weight: 300;
+  font-size: 33px;
+  margin-bottom: 34px; }
+
+.intro {
+  border-bottom: 1px solid #d56532;
+  border-top: 1px solid #d56532;
+  margin-top: 30px;
+  padding: 56px 0 59px; }
+  .intro p {
+    font: 300 21px/1.5 sans-serif; }
 
 /* =Media queries
 -------------------------------------------------------------- */
