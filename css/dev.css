@@ -4,7 +4,8 @@
   width:100%;
 }
 #top-ten td span,
-#worst-ten td span{
+#worst-ten td span,
+#just-all td span{
   display: inline-block;
   height: 1em;
   width: 1em;

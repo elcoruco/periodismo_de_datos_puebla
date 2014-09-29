@@ -15,6 +15,7 @@ define(function(require){
       Collection = require('collections/municipios'),
       Big_cities = require('views/big_cities'),
       Worst_cities = require('views/worst_cities'),
+      All_cities = require('views/all_cities'),
       SVG_map    = require('views/svg_map'),
       d3         = require('d3'),
       G          = require('goog!maps,3.17,other_params:sensor=false&region=MX'),
@@ -82,6 +83,9 @@ define(function(require){
 
       this.worst_cities = new Worst_cities({collection : this.collection});
       this.worst_cities.render();
+
+      this.all_cities = new All_cities({collection : this.collection});
+      this.all_cities.render();
 
 
       // render the google map
