@@ -967,6 +967,15 @@ section {
   .intro p {
     font: 300 21px/1.5 sans-serif; }
 
+p.lead {
+  font: 300 21px/1.5 sans-serif; }
+
+.fuente {
+  margin-top: 30px; }
+
+.source {
+  font-size: 12px; }
+
 a, a:visited {
   color: #d56532; }
 
@@ -977,7 +986,16 @@ a, a:visited {
   stroke: none;
   padding: 0 10px; }
   #PUEBLA text tspan {
-    font-family: 'Open Sans', sans-serif; }
+    font: 500 21px 'Open Sans', sans-serif; }
+
+.color-legend li {
+  font-size: 12px;
+  display: inline-block; }
+
+.cuadrito {
+  display: block;
+  height: 10px;
+  width: 100%; }
 
 footer {
   padding: 40px 0 60px;

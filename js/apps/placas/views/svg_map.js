@@ -83,12 +83,25 @@ define(function(require){
 		  d3.select('#PUEBLA') 
             .append("text")
             	.attr('id','el_hover')
-				.text(d.id + ':')
+				.text(d.get("nombre_municipio"))
 				.attr("x", (x +5))
                 .attr("y", (y +15))
 				.append("tspan")
 					.attr("x", (x+5))
               		.attr("y", (y+10))
+			  		.text('Distancia: ' + d.get("ciudad_distance_text"))
+			  	
+			  	.append("tspan")
+              		.attr("x", (x+5))
+              		.attr("y", (y+40))
+			  		.attr('dy', '1.5em')
+			  		.text('Tiempo: ' + d.get("ciudad_duration_text"))
+			  	.append("tspan")
+              		.attr("x", (x+5))
+              		.attr("y", (y+40))
+			  		.attr('dy', '1.5em')
+			  		.text('Autos: ' + d.get("autos_2013"))
+
           
           var widthS = document.getElementById('el_hover').offsetWidth;
 		  //elimina text trazado solo para calcular
@@ -99,7 +112,7 @@ define(function(require){
           d3.select('#PUEBLA')
           	.append("rect")
           		.attr("width", widthS + 10)
-                .attr("height", 40)
+                .attr("height", 110)
              	.attr("x", (x))
                 .attr("y", y)
                 .attr('fill', '#282827')
@@ -108,14 +121,24 @@ define(function(require){
            //agrega texto sobre rectángulo 
            d3.select('#PUEBLA') 
             .append("text")
-				.text(d.id + ':')
+				.text(d.get("nombre_municipio"))
 				.attr("x", (x +5))
-                .attr("y", (y +15))
+                .attr("y", (y +25))
 				.append("tspan")
               		.attr("x", (x+5))
-              		.attr("y", (y+10))
+              		.attr("y", (y+20))
 			  		.attr('dy', '1.5em')
-        
+			  		.text('Distancia: ' + d.get("ciudad_distance_text"))
+			  	.append("tspan")
+              		.attr("x", (x+5))
+              		.attr("y", (y+45))
+			  		.attr('dy', '1.5em')
+			  		.text('Tiempo: ' + d.get("ciudad_duration_text"))
+			  	.append("tspan")
+              		.attr("x", (x+5))
+              		.attr("y", (y+70))
+			  		.attr('dy', '1.5em')
+			  		.text('Autos: ' + d.get("autos_2013"))
 
         });
 

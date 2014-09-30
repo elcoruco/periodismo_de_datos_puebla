@@ -48,9 +48,30 @@
 			<div class="col-md-8 col-md-offset-2">	
 				<section id="base-map">
 				<h2>El mapa de la suerte</h2>
+				<p>En el mapa se visualiza la distancia en kilómetros al centro de canje más cercano, el tiempo de recorrido y 
+				el número automóviles para cada municipio; 
+				el color nos ayuda a 
+				 identificar que municipios son los que están más lejos de un centro de canje (rojo), o a una menor distancia (verde).
+				
+				Algunos municipios corren con tan mala "suerte" que tendrán que recorrer hasta dos horas y media para realizar
+				su canje gratuito de placas.
+				
+				
+				
+				</p>
 				<ul class="list-group">
 				</ul>
-
+				<div class="color-legend ">
+				<ul>
+					<li><span class="cuadrito" style="background:rgb(0,104,55);"></span>0 km</li>
+					<li class="millon"><span class="cuadrito" style="background:rgb(26,152,80);"></span> 15km</li>
+					<li class="millon"><span class="cuadrito" style="background:rgb(166,217,106);"></span> <strong>40</strong> km</li>
+					<li class="millon"><span class="cuadrito" style="background:rgb(217,239,139);"></span> <strong>60</strong> km</li>
+					<li class="millon"><span class="cuadrito" style="background:rgb(253,174,97);"></span> <strong>80</strong> km</li>
+					<li class="millon"><span class="cuadrito" style="background:rgb(215,48,39);"></span> <strong>120</strong> km</li>
+					<li class="millon"><span class="cuadrito" style="background:rgb(165,0,38)"></span> <strong>193</strong> km</li>
+				</ul>
+            </div>
 				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="650" height="540">
                 <g id="PUEBLA" opacity="1" stroke-width=".2" fill="#ffffff" stroke="#1e336a" transform="scale(.5) translate(100, -25)">
                     <!--INICIO DE PATHS-->
@@ -1171,6 +1192,20 @@
                   <!--FIN DE PATHS-->
                 </g>
             </svg>
+            
+            <div class="row fuente">
+            	<div class="col-md-8 col-md-offset-4">
+            	<h5>Fuentes:</h5>
+            	<ul class="source">
+            	
+            	<li>Para calcular el tiempo de recorrido usamos el API de 
+				Google (es tiempo sin tráfico, baches ni semáforos, ni fotomultas). </li>
+				<li> 
+				Obtenemos de
+				<a href="http://inegifacil.com/indicadores/1011000057/21000">INEGI Fácil</a> el total de automóviles registrados en circulación al año 2013.</li>
+            	</ul>
+            	</div>
+            </p>
     </section>
 			</div>
     	</div>
