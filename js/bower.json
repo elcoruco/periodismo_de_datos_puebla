@@ -20,6 +20,7 @@
     "requirejs": "~2.1.15",
     "requirejs-plugins": "~1.0.2",
     "backbone": "~1.1.2",
-    "requirejs-text": "~2.0.12"
+    "requirejs-text": "~2.0.12",
+    "r.js": "~2.1.15"
   }
 }
