@@ -923,7 +923,7 @@ header.canje {
 
 .content {
   border: 10px solid rgba(255, 255, 255, 0.5);
-  margin: 100px auto 200px;
+  margin: 100px auto 50px;
   background: #fff;
   -moz-background-clip: border;
   /* Firefox 3.6 */
@@ -998,8 +998,16 @@ a, a:visited {
   width: 100%; }
 
 footer {
-  padding: 40px 0 60px;
+  padding: 10px 0 60px;
   text-align: center; }
+  footer p {
+    color: #fff; }
+    footer p a, footer p a:visited {
+      border-bottom: 1px dotted #d56532;
+      color: #fff;
+      font-weight: 700; }
+      footer p a:hover, footer p a:visited:hover {
+        border-bottom: 1px dotted white; }
 
 /* =Media queries
 -------------------------------------------------------------- */
