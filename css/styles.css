@@ -876,6 +876,9 @@ html {
   -o-background-size: cover;
   background-size: cover; }
 
+strong {
+  font-weight: 700; }
+
 header.canje {
   background: #1c4d88;
   margin: 0 0 70px;
