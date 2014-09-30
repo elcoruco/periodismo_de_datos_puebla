@@ -64,6 +64,62 @@ define(function(require){
             }
             return 'fill: ' + fill + '; cursor: pointer';  
           })
+       
+       // SHOW THE STATE LABEL ON MOUSEOVER
+        .on('mouseover', function(){
+          var bb = this.getBBox(),
+              id = Number(this.getAttribute('id')),
+              d  = that.collection.findWhere({clave_municipio : id}),
+              y  = bb.y + (bb.height/2)
+              x  = bb.x + (bb.width/2);
+
+
+         // remove the previous labels
+          d3.selectAll('#PUEBLA text').remove();
+          d3.selectAll('#PUEBLA rect').remove();
+		  
+          
+          // esto es solo para calcular ancho
+		  d3.select('#PUEBLA') 
+            .append("text")
+            	.attr('id','el_hover')
+				.text(d.id + ':')
+				.attr("x", (x +5))
+                .attr("y", (y +15))
+				.append("tspan")
+					.attr("x", (x+5))
+              		.attr("y", (y+10))
+          
+          var widthS = document.getElementById('el_hover').offsetWidth;
+		  //elimina text trazado solo para calcular
+		  d3.selectAll('#PUEBLA text').remove();
+          
+          
+          //agrega rectángulo    		
+          d3.select('#PUEBLA')
+          	.append("rect")
+          		.attr("width", widthS + 10)
+                .attr("height", 40)
+             	.attr("x", (x))
+                .attr("y", y)
+                .attr('fill', '#282827')
+                .attr('fill-opacity', 0.8);
+                
+           //agrega texto sobre rectángulo 
+           d3.select('#PUEBLA') 
+            .append("text")
+				.text(d.id + ':')
+				.attr("x", (x +5))
+                .attr("y", (y +15))
+				.append("tspan")
+              		.attr("x", (x+5))
+              		.attr("y", (y+10))
+			  		.attr('dy', '1.5em')
+        
+
+        });
+
+
     }
   });
   return svg_map;

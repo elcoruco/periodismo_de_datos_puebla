@@ -970,6 +970,15 @@ section {
 a, a:visited {
   color: #d56532; }
 
+#PUEBLA text {
+  width: 50px;
+  font: 700 21px 'Open Sans', sans-serif;
+  fill: #fff;
+  stroke: none;
+  padding: 0 10px; }
+  #PUEBLA text tspan {
+    font-family: 'Open Sans', sans-serif; }
+
 footer {
   padding: 40px 0 60px;
   text-align: center; }
