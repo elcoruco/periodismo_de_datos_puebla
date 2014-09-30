@@ -947,24 +947,32 @@ header.canje {
   padding: 0;
   background-radius: 8px; }
 
-h2.mandaron {
-  color: #1c4d88;
-  font-weight: 300;
-  font-size: 33px;
-  margin-bottom: 34px; }
+article {
+  padding-bottom: 80px; }
 
 section {
   border-bottom: 1px solid #d56532;
   padding-bottom: 88px;
   margin-top: 88px; }
+  section h2 {
+    color: #1c4d88;
+    font-weight: 300;
+    font-size: 33px;
+    margin-bottom: 34px; }
 
 .intro {
   border-bottom: 1px solid #d56532;
-  border-top: 1px solid #d56532;
-  margin-top: 30px;
+  margin-top: 0;
   padding: 56px 0 59px; }
   .intro p {
     font: 300 21px/1.5 sans-serif; }
+
+a, a:visited {
+  color: #d56532; }
+
+footer {
+  padding: 40px 0 60px;
+  text-align: center; }
 
 /* =Media queries
 -------------------------------------------------------------- */
