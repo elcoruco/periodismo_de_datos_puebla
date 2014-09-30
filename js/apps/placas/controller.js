@@ -87,6 +87,7 @@ define(function(require){
       this.all_cities = new All_cities({collection : this.collection});
       this.all_cities.render();
 
+	  this.render_show_hide();
 
       // render the google map
       // this.render_google_map();
@@ -102,6 +103,33 @@ define(function(require){
         this.$('#just-all ol').append('<li style="background:' + Colores.color[c.get('level')] +';">' + c.get('nombre_municipio') + '</li>');
       }, this);
     },
+    
+    //
+    // R E N D E R   T H E   S H O W    / H I D E
+    //
+    render_show_hide: function() {
+    	$("#top-ten").hide();
+    	$("#worst-ten").hide();
+    	$("#just-all").hide();
+		
+		$("#nav a").on('click', function(){
+			$("#nav").find("a").removeClass('current');
+	  		event.preventDefault();
+			var sectionName = $(this).attr("title");
+			
+			$(this).addClass("current");
+			
+			$("#top-ten").hide();
+			$("#worst-ten").hide();
+			$("#just-all").hide();
+			$("#base-map").hide();
+			
+			$("#"+sectionName).show();
+			 
+	  }); 
+    },
+    	  
+
 
     //
     // R E N D E R   T H E   G O O G L E   M A P

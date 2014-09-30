@@ -947,13 +947,30 @@ header.canje {
   padding: 0;
   background-radius: 8px; }
 
+#nav {
+  margin-top: 40px;
+  text-align: center; }
+  #nav li {
+    display: inline-block; }
+  #nav a {
+    background: #f2f2f2;
+    color: #333;
+    padding: 10px; }
+    #nav a:hover {
+      background: #ccc; }
+    #nav a.current {
+      background: #1c4d88;
+      color: white; }
+      #nav a.current:hover {
+        background: #1c4d88; }
+
 article {
   padding-bottom: 80px; }
 
 section {
   border-bottom: 1px solid #d56532;
   padding-bottom: 88px;
-  margin-top: 88px; }
+  margin-top: 40px; }
   section h2 {
     color: #1c4d88;
     font-weight: 300;
