@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <!-- bootstrap thing -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ficha Técnica (A cambiar tus placas)</title>
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <link rel="stylesheet" type="text/css" href="/css/dev.css">
+ <!-- <link rel="stylesheet" type="text/css" href="/js/bower_components/bootstrap/dist/css/bootstrap.css">-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+
+<div class="container  content">
+	<header class="canje">
+	<h2>En Puebla el canje de placas <span>es gratuito</span></h2>
+	<h1><span class="logoplacas">Cambio de placas Gratis en Puebla</span></h1>
+	</header>
+    	
+    	
+		    
+
+
+
+
+
+
+    <!-- THE COMMENTS :D -->
+    <div class="row">
+    		<div class="col-md-8 col-md-offset-2">
+<section>
+      <h2>Descripción técnica</h2>
+      <p><img src="/imgs/reporte.jpg"></p>
+
+
+      <p>Aquí el procedimiento:</p>
+      <ol>
+        <li>Me volé un mapa de Puebla en SVG de  
+          <a href="http://www.transparenciapresupuestaria.gob.mx/es/PTP/Entidades_Federativas">
+          transparencia presupuestaria</a>.</li>
+
+        <li>Busqué las coordenadas de los 
+          <a href="http://www.puebla.gob.mx/images/canje-autorizado.jpg">
+          centros de cambio de placas</a> en Google maps.</li>
+
+        <li>Calculé la distancia entre el centro de cada municipio y los doce centros de canje usando
+          la fórmula de Haversine. A cada uno le asigné el "más cercano".</li>
+
+        <li>utilicé d3 para colorear el mapa, asignando un verde botella para los municipios con centro de
+          cambio de placas, y un rojo coágulo a los municipios más alejados de uno.</li>
+
+        <li>Para completar la información del proyecto, utilicé INEGI fácil para obtener el indicador
+          para <a href="http://inegifacil.com/indicadores/1011000057/21000">automóviles registrados 
+          en circulación</a>.</li>
+
+        <li>Ya con el indicador, utilicé la <a href="https://github.com/elcoruco/inegifacil_4all">librería de 
+        PHP de INEGI fácil</a> para obtener los autos en circulación para cada municipio de Puebla.</li>
+
+        <li>Por último, agregué el índice de desarrollo humano para cada municipio. Esta información
+        la obtuve de los amigos de <a href="http://intellitrendsmx.blogspot.mx">intellitrendsMX</a>. 
+        <a href="https://dl.dropboxusercontent.com/u/20460372/base%20municipal%20IDH_hackaton.xls">
+        Aquí el link a la DB</a>.</li>
+
+        <li>Para calcular las distancias y tiempos en carretera, utilcé el Servicio de matriz 
+        de distancia, de la API de Google maps.</li>
+
+        <li>Aunque se supone es por municipio el asunto, las distancias finales se calcularon en 
+        base a la cabecera de cada municipio, por eso se utiliza el nombre de la ciudad y
+        no el del municipio. Sí, algo confuso, pero pues ya se fue así :P.</li>
+
+        <li>El proyecto tomó aproximadamente 28 horas de desarrollo, y se armó con PHP y JS.</li>
+
+        <li>Como todo lo demás, este proyecto se armó sin dinero. (Pero ya estamos
+        en pláticas con la República del Congo para obtener recursos.)</li>
+
+      </ol>
+</section>
+
+ <footer>
+  	<p>Forjado artesanalmente por <a href="http://gobiernofacil.com/">Gobierno Fácil</a></p>
+  </footer>
+    		</div>
+    </div>
+</div>
+  <!-- development JS config -->
+  <script data-main="/js/apps/placas/main" src="/js/bower_components/requirejs/require.js"></script>
+</body>
+</html>
